@@ -1,0 +1,7 @@
+networkx
+chromadb
+sentence-transformers
+langchain-groq
+langchain-core
+pydantic
+matplotlib

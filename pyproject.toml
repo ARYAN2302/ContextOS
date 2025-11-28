@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agentic-memory"
+version = "0.1.2"
+description = "A Graph-Theoretic Memory Kernel for Agentic AI Systems"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Aryan Thakur"}
+]
+keywords = [
+    "ai", "agents", "memory", "rag", "llm", 
+    "graph", "coala", "langchain", "context"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "networkx>=3.0",
+    "pydantic>=2.0",
+    "chromadb>=0.4.0",
+    "sentence-transformers>=2.0.0",
+    "langchain-groq>=0.1.0",
+    "langchain-core>=0.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "ruff>=0.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ARYAN2302/ContextOS"
+Repository = "https://github.com/ARYAN2302/ContextOS"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agentic_memory*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "W"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
