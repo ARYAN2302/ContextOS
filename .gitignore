@@ -20,6 +20,10 @@ context_os_db.json
 context_os_chroma/
 test_db_*.json
 test_chroma_*/
+demo_brain.json
+demo_brain_vectors/
+brain.html
+lib/
 
 # IDE
 .vscode/
