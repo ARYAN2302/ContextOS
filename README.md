@@ -199,6 +199,16 @@ context = client.compile(
 ```
 
 ---
+## Roadmap & Future Work v0.2 (Planned):
+
+Multi-Session Persistence: Long-term user profiles and cross-session entity resolution.
+
+Memory Consolidation (Sleep Cycles): Background merging of duplicate nodes and pruning of stale memories to optimize graph density. v0.3 (Planned):
+
+Causal Reasoning Engine: New edge types (CAUSES, PREVENTS) for deeper logic.
+
+Document Ingestion: Parsing full PDFs into knowledge sub-graphs.
+
 
 ## License
 
