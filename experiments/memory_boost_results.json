@@ -1,0 +1,316 @@
+{
+  "model": "llama-3.1-8b-instant",
+  "summary": {
+    "stateless": {
+      "correct": 1,
+      "total": 15
+    },
+    "with_history": {
+      "correct": 15,
+      "total": 15
+    },
+    "contextos": {
+      "correct": 15,
+      "total": 15
+    }
+  },
+  "detailed": [
+    {
+      "scenario": "Personal Facts",
+      "question": "What's my name?",
+      "expected": [
+        "aryan"
+      ],
+      "stateless": {
+        "response": "I don't have any information about your name. This conversation just started.",
+        "correct": false
+      },
+      "with_history": {
+        "response": "Your name is Aryan.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "Your name is Aryan.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Personal Facts",
+      "question": "Where do I work?",
+      "expected": [
+        "neuralforge",
+        "neural forge"
+      ],
+      "stateless": {
+        "response": "I don't have that information. Can you please provide more context or details about your work or workplace?",
+        "correct": false
+      },
+      "with_history": {
+        "response": "You work at NeuralForge.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "You work at NeuralForge, a startup.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Personal Facts",
+      "question": "What's my favorite language?",
+      "expected": [
+        "rust"
+      ],
+      "stateless": {
+        "response": "I don't have any information about your favorite language. This is the start of our conversation, and I don't retain any personal data. Would you like to share your favorite language with me?",
+        "correct": false
+      },
+      "with_history": {
+        "response": "Your favorite programming language is Rust.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "Your favorite programming language is Rust.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Project Context",
+      "question": "What project am I working on?",
+      "expected": [
+        "apollo"
+      ],
+      "stateless": {
+        "response": "I don't have any information about the project you're working on. This conversation just started. Can you tell me about the project you're working on?",
+        "correct": false
+      },
+      "with_history": {
+        "response": "You're working on Apollo, a distributed database written in Go.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "You're working on a project called Apollo, which is a distributed database written in Go.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Project Context",
+      "question": "What language is Apollo written in?",
+      "expected": [
+        "go"
+      ],
+      "stateless": {
+        "response": "Apollo is a GraphQL server framework written in JavaScript.",
+        "correct": false
+      },
+      "with_history": {
+        "response": "Apollo is written in Go.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "Apollo is written in Go.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Project Context",
+      "question": "What's the main technical challenge?",
+      "expected": [
+        "consensus",
+        "partition",
+        "network"
+      ],
+      "stateless": {
+        "response": "I don't have enough information to determine the main technical challenge. Could you please provide more context or clarify what you are referring to?",
+        "correct": false
+      },
+      "with_history": {
+        "response": "Achieving consensus under network partitions.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "Achieving consensus under network partitions is the main technical challenge in your Apollo project. This is a classic problem in distributed systems, where nodes may become disconnected and unable to communicate, making it difficult to reach a consensus on the state of the system.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Multi-Hop Reasoning",
+      "question": "What framework does Titan use?",
+      "expected": [
+        "kafka"
+      ],
+      "stateless": {
+        "response": "Titan, a distributed graph database, uses Apache Cassandra as its underlying storage engine and Apache HBase as an alternative.",
+        "correct": false
+      },
+      "with_history": {
+        "response": "Project Titan uses the Kafka framework.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "Project Titan uses the Kafka framework.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Multi-Hop Reasoning",
+      "question": "What languages is that framework written in?",
+      "expected": [
+        "scala",
+        "java"
+      ],
+      "stateless": {
+        "response": "I'm happy to help, but you didn't specify a framework. Please provide the name of the framework you're referring to, and I'll do my best to answer your question.",
+        "correct": false
+      },
+      "with_history": {
+        "response": "Since Project Titan uses the Kafka framework, and Kafka is written in Scala and Java, the languages used by the framework Titan is written in are Scala and Java.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "The Kafka framework is written in Scala and Java.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Multi-Hop Reasoning",
+      "question": "What runtime does Scala use?",
+      "expected": [
+        "jvm",
+        "java virtual machine"
+      ],
+      "stateless": {
+        "response": "Scala uses the Java Virtual Machine (JVM) as its runtime environment.",
+        "correct": true
+      },
+      "with_history": {
+        "response": "The runtime Scala uses is the JVM (Java Virtual Machine).",
+        "correct": true
+      },
+      "contextos": {
+        "response": "Scala runs on the JVM (Java Virtual Machine).",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Preference Retention",
+      "question": "What theme do I prefer?",
+      "expected": [
+        "dark"
+      ],
+      "stateless": {
+        "response": "I don't have any information about your preferences. This is the start of our conversation, and I'm here to help. What would you like to talk about or what theme are you interested in?",
+        "correct": false
+      },
+      "with_history": {
+        "response": "You prefer dark mode.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "You prefer dark mode.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Preference Retention",
+      "question": "What keybindings do I use?",
+      "expected": [
+        "vim"
+      ],
+      "stateless": {
+        "response": "I need more information about what you're referring to. Keybindings can vary depending on the application, operating system, or software you're using. Can you please specify the context or application you're working with?",
+        "correct": false
+      },
+      "with_history": {
+        "response": "You use vim keybindings everywhere.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "You use vim keybindings everywhere.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Preference Retention",
+      "question": "What's my timezone?",
+      "expected": [
+        "pst",
+        "pacific"
+      ],
+      "stateless": {
+        "response": "I don't have that information. Can you please tell me your location or city so I can help you find your timezone?",
+        "correct": false
+      },
+      "with_history": {
+        "response": "PST (Pacific Standard Time).",
+        "correct": true
+      },
+      "contextos": {
+        "response": "Your timezone is PST (Pacific Standard Time).",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Temporal Context",
+      "question": "What did I do yesterday?",
+      "expected": [
+        "bug",
+        "auth",
+        "fixed"
+      ],
+      "stateless": {
+        "response": "I'm a large language model, I don't have the ability to keep track of your personal activities or memories. I can only provide general information and assist with tasks. If you'd like to recall what you did yesterday, you might try checking your calendar, journal, or asking someone who was with you.",
+        "correct": false
+      },
+      "with_history": {
+        "response": "You fixed a critical bug in the auth module.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "You fixed a critical bug in the auth module.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Temporal Context",
+      "question": "What happened last week?",
+      "expected": [
+        "deployed",
+        "2.0",
+        "production"
+      ],
+      "stateless": {
+        "response": "I'm not aware of current events or specific information about last week. I can provide general information or help with a specific topic if you'd like.",
+        "correct": false
+      },
+      "with_history": {
+        "response": "You deployed version 2.0 to production last week.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "You deployed version 2.0 to production last week.",
+        "correct": true
+      }
+    },
+    {
+      "scenario": "Temporal Context",
+      "question": "What's scheduled for tomorrow?",
+      "expected": [
+        "code review",
+        "review",
+        "team"
+      ],
+      "stateless": {
+        "response": "I'm not aware of your personal schedule. Can you provide more context or information about what you're looking for?",
+        "correct": false
+      },
+      "with_history": {
+        "response": "You have a code review with the team tomorrow.",
+        "correct": true
+      },
+      "contextos": {
+        "response": "You have a code review with the team scheduled for tomorrow.",
+        "correct": true
+      }
+    }
+  ]
+}
