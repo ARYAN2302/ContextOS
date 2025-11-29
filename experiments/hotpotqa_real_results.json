@@ -1,0 +1,1022 @@
+{
+  "model": "llama-3.1-8b-instant",
+  "dataset": "HotpotQA Dev (Distractor)",
+  "num_samples": 50,
+  "paragraphs_per_question": 10,
+  "summary": {
+    "contextos": {
+      "exact_match": 54.0,
+      "f1": 67.71841368126198
+    },
+    "vector_only": {
+      "exact_match": 48.0,
+      "f1": 64.30254066538896
+    },
+    "no_retrieval": {
+      "exact_match": 0.0,
+      "f1": 10.755676865672827
+    }
+  },
+  "detailed": [
+    {
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "ground_truth": "yes",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "No, they were not. Scott Derrickson is American, and Ed Wood is American as well, but Ed Wood's father was of English descent.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+      "ground_truth": "Chief of Protocol",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "United States ambassador to Ghana and to Czechoslovakia.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "No information is provided about the woman who portrayed Corliss Archer in the film Kiss and Tell holding a government position.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "I'm not aware of the information about the woman who portrayed Corliss Archer in the film Kiss and Tell.",
+        "em": 0.0,
+        "f1": 0.10526315789473684
+      }
+    },
+    {
+      "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+      "ground_truth": "Animorphs",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Animorphs.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Animorphs",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The Illuminae Files series by Amie Kaufman and Jay Kristoff, but more specifically, it is The Illuminae Files companion series, The Illuminae Files' companion series is not the answer, but rather the series that is similar is The Illuminae Files companion series is not the answer, but rather the series that is similar is The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion series is not the answer, but rather the series that is similar is actually The Illuminae Files companion",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Are the Laleli Mosque and Esma Sultan Mansion located in the same neighborhood?",
+      "ground_truth": "no",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "No.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "No.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Yes, the Laleli Mosque and Esma Sultan Mansion are located in the same neighborhood, Laleli, in Istanbul, Turkey.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+      "ground_truth": "Greenwich Village, New York City",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Greenwich Village.",
+        "em": 0.0,
+        "f1": 0.5714285714285715
+      },
+      "vector_only": {
+        "prediction": "Brooklyn",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "The director of the romantic comedy \"Big Stone Gap\" is Adriana Trigiani, and she is based in New York City.",
+        "em": 0.0,
+        "f1": 0.2608695652173913
+      }
+    },
+    {
+      "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+      "ground_truth": "YG Entertainment",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "YG Entertainment.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "YG Entertainment",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "2014 Spring Summer is the debut album of the South Korean boy group Winner, which was formed by YG Entertainment.",
+        "em": 0.0,
+        "f1": 0.19999999999999998
+      }
+    },
+    {
+      "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+      "ground_truth": "Eenasul Fateh",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Eenasul Fateh",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Eenasul Fateh",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "I'm not aware of any information about a well-known consultant named Aladin.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+      "ground_truth": "3,677 seated",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "3,677",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "vector_only": {
+        "prediction": "3,677",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "no_retrieval": {
+        "prediction": "The Lewiston Maineiacs played their home games at the Androscoggin Bank Colis\u00e9e. It can seat approximately 3,800 people.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Who is older, Annie Morton or Terry Richardson?",
+      "ground_truth": "Terry Richardson",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Terry Richardson is older.",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "vector_only": {
+        "prediction": "Annie Morton is older than Terry Richardson.",
+        "em": 0.0,
+        "f1": 0.4444444444444445
+      },
+      "no_retrieval": {
+        "prediction": "I am unable to verify who Annie Morton is. However, Terry Richardson was born on August 14, 1965.",
+        "em": 0.0,
+        "f1": 0.19999999999999998
+      }
+    },
+    {
+      "question": "Are Local H and For Against both from the United States?",
+      "ground_truth": "yes",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Yes, Local H and For Against are both from the United States.",
+        "em": 0.0,
+        "f1": 0.16666666666666669
+      }
+    },
+    {
+      "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+      "ground_truth": "Kansas Song",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Kansas Song (We\u2019re From Kansas)",
+        "em": 0.0,
+        "f1": 0.5714285714285715
+      },
+      "vector_only": {
+        "prediction": "Kansas Song (We\u2019re From Kansas)",
+        "em": 0.0,
+        "f1": 0.5714285714285715
+      },
+      "no_retrieval": {
+        "prediction": "The fight song of the University of Kansas is \"Rock Chalk, Jayhawk.\"",
+        "em": 0.0,
+        "f1": 0.33333333333333337
+      }
+    },
+    {
+      "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+      "ground_truth": "David Weissman",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "David Weissman.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "David Weissman",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "David Diamond co-wrote the film \"Win a Date with Tad Hamilton!\" starring Nicolas Cage and T\u00e9a Leoni.",
+        "em": 0.0,
+        "f1": 0.11764705882352941
+      }
+    },
+    {
+      "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+      "ground_truth": "1999",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "1999",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "1999",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "I'm not aware of any information about Guns N' Roses performing a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Are Random House Tower and 888 7th Avenue both used for real estate?",
+      "ground_truth": "no",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Yes.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "Yes.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "Yes, both the Random House Tower and 888 7th Avenue are used for real estate purposes.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+      "ground_truth": "from 1986 to 2013",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "1945-1969",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "1986 to 2013.",
+        "em": 0.0,
+        "f1": 0.8571428571428571
+      },
+      "no_retrieval": {
+        "prediction": "Alex Ferguson managed Manchester United during the timeframe when he recruited David Beckham.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+      "ground_truth": "9,984",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "The United States.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "The United States.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "I'm not aware of a Brown State Fishing Lake. However, I found a Brown State Fishing Lake in Kansas, USA. The country with the Brown State Fishing Lake is the United States. The population of the United States is approximately 332 million inhabitants.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+      "ground_truth": "the North Atlantic Conference",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "America East Conference was formerly known as the North Atlantic Conference from 1988 to 1996",
+        "em": 0.0,
+        "f1": 0.35294117647058826
+      },
+      "vector_only": {
+        "prediction": "America East Conference was formerly known as the North Atlantic Conference from 1988 to 1996",
+        "em": 0.0,
+        "f1": 0.35294117647058826
+      },
+      "no_retrieval": {
+        "prediction": "The conference formerly known as the Yankee Conference from 1988 to 1996 is now known as the America East.",
+        "em": 0.0,
+        "f1": 0.10526315789473684
+      }
+    },
+    {
+      "question": "Are Giuseppe Verdi and Ambroise Thomas both Opera composers ?",
+      "ground_truth": "yes",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Yes, they are both opera composers.",
+        "em": 0.0,
+        "f1": 0.2857142857142857
+      }
+    },
+    {
+      "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+      "ground_truth": "1969 until 1974",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Nixon",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "Nixon",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of President Lyndon B. Johnson.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Which writer was from England, Henry Roth or Robert Erskine Childers?",
+      "ground_truth": "Robert Erskine Childers DSC",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Robert Erskine Childers.",
+        "em": 0.0,
+        "f1": 0.8571428571428571
+      },
+      "vector_only": {
+        "prediction": "Robert Erskine Childers.",
+        "em": 0.0,
+        "f1": 0.8571428571428571
+      },
+      "no_retrieval": {
+        "prediction": "Robert Erskine Childers was from England.",
+        "em": 0.0,
+        "f1": 0.6
+      }
+    },
+    {
+      "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+      "ground_truth": "Pedro Rodr\u00edguez",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Pedro Rodr\u00edguez",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Pedro Rodr\u00edguez",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "I'm not aware of any information about a Force India driver born in 1990. However, Sergio P\u00e9rez, a Mexican Formula One driver, was born in 1990 and has held the podium.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "This singer of A Rather Blustery Day also voiced what hedgehog?",
+      "ground_truth": "Sonic",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Sonic the Hedgehog.",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "vector_only": {
+        "prediction": "Sonic the Hedgehog.",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "no_retrieval": {
+        "prediction": "The singer of \"A Rather Blustery Day\" is also the voice of Ernie in the Muppets, but more notably, he voiced the character of Fozzie Bear's nemesis, and also the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the character of the hedgehog, Rowlf the Dog's friend, but most notably, he voiced the",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+      "ground_truth": "keyboard function keys",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "The keyboard function keys.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "The iSight iMac G5 keyboard.",
+        "em": 0.0,
+        "f1": 0.28571428571428575
+      },
+      "no_retrieval": {
+        "prediction": "The Apple Remote was originally designed to interact with the Apple TV.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Which performance act has a higher instrument to person ratio, Badly Drawn Boy or Wolf Alice? ",
+      "ground_truth": "Badly Drawn Boy",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Badly Drawn Boy.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Badly Drawn Boy.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Badly Drawn Boy is a solo project, often accompanied by a backing band, but primarily a solo act. \n\nWolf Alice is a four-piece band with a guitarist, bassist, drummer, and lead vocalist.",
+        "em": 0.0,
+        "f1": 0.19999999999999998
+      }
+    },
+    {
+      "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+      "ground_truth": "World's Best Goalkeeper",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "World's Best Goalkeeper.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "World's Best Goalkeeper.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The father of Kasper Schmeichel, Peter Schmeichel, was voted the best goalkeeper in the world by the IFFHS in 1992.",
+        "em": 0.0,
+        "f1": 0.21052631578947367
+      }
+    },
+    {
+      "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+      "ground_truth": "Barton Lee Hazlewood",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Lee Hazlewood \nLee Hazlewood",
+        "em": 0.0,
+        "f1": 0.5714285714285715
+      },
+      "vector_only": {
+        "prediction": "Lee Hazlewood \nLee Hazlewood",
+        "em": 0.0,
+        "f1": 0.5714285714285715
+      },
+      "no_retrieval": {
+        "prediction": "Lee Hazlewood wrote \"These Boots Are Made for Walkin'.\"",
+        "em": 0.0,
+        "f1": 0.3333333333333333
+      }
+    },
+    {
+      "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+      "ground_truth": "1838",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "1779",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "1779",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "Virginia Commonwealth University was founded in 1838.",
+        "em": 0.0,
+        "f1": 0.25
+      }
+    },
+    {
+      "question": "Are both Dictyosperma, and Huernia described as a genus?",
+      "ground_truth": "yes",
+      "num_paragraphs": 2,
+      "contextos": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Yes, both Dictyosperma and Huernia are described as a genus.",
+        "em": 0.0,
+        "f1": 0.19999999999999998
+      }
+    },
+    {
+      "question": "Kaiser Ventures corporation was founded by an American industrialist who became known as the father of modern American shipbuilding?",
+      "ground_truth": "Henry J. Kaiser",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "No",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "No",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "I couldn't find any information about a person or a company called Kaiser Ventures corporation. However, I found that Henry J. Kaiser founded the Kaiser Shipbuilding Company, which played a significant role in American shipbuilding during World War II.",
+        "em": 0.0,
+        "f1": 0.15789473684210528
+      }
+    },
+    {
+      "question": "What is the name for the adventure in \"Tunnels and Trolls\", a game designed by Ken St. Andre?",
+      "ground_truth": "Arena of Khazan",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Arena of Khazan",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Arena of Khazan",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The adventure in \"Tunnels and Trolls\" is called \"The Caverns of the Snow Witch\".",
+        "em": 0.0,
+        "f1": 0.14285714285714288
+      }
+    },
+    {
+      "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+      "ground_truth": "2000",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "2000",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "2000",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Poison's album \"Shut Up, Make Love\" was released on October 25, 1990.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Hayden is a singer-songwriter from Canada, but where does Buck-Tick hail from?",
+      "ground_truth": "Fujioka, Gunma",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Fujioka, Gunma.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Fujioka, Gunma, Japan.",
+        "em": 0.0,
+        "f1": 0.8
+      },
+      "no_retrieval": {
+        "prediction": "Buck-Tick is a Japanese rock band.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+      "ground_truth": "Charles Eug\u00e8ne",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Charles Nungesser and Fran\u00e7ois Coli.",
+        "em": 0.0,
+        "f1": 0.28571428571428575
+      },
+      "vector_only": {
+        "prediction": "Charles Nungesser and Fran\u00e7ois Coli.",
+        "em": 0.0,
+        "f1": 0.28571428571428575
+      },
+      "no_retrieval": {
+        "prediction": "The French ace pilot and adventurer who flew L'Oiseau Blanc was Charles Nungesser.",
+        "em": 0.0,
+        "f1": 0.14285714285714285
+      }
+    },
+    {
+      "question": "Are Freakonomics and In the Realm of the Hackers both American documentaries?",
+      "ground_truth": "no",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "No.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "No.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Yes, Freakonomics is an American documentary. \n\nIn the Realm of the Hackers is a French documentary.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Which band, Letters to Cleo or Screaming Trees, had more members?",
+      "ground_truth": "Letters to Cleo",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Letters to Cleo.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Letters to Cleo.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "I am unable to verify which band had more members.",
+        "em": 0.0,
+        "f1": 0.15384615384615383
+      }
+    },
+    {
+      "question": "Alexander Kerensky was defeated and destroyed by the Bolsheviks in the course of a civil war that ended when ?",
+      "ground_truth": "October 1922",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "1922",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "vector_only": {
+        "prediction": "1923",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "The Russian Civil War ended in 1922.",
+        "em": 0.0,
+        "f1": 0.25
+      }
+    },
+    {
+      "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+      "ground_truth": "2000",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "2000",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "2000",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Seven Brief Lessons on Physics was written by Carlo Rovelli. Carlo Rovelli has worked in France since the 1980s.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+      "ground_truth": "World War II",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "World War II",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "World War II",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The Livesey Hall War Memorial commemorates the fallen of World War I.",
+        "em": 0.0,
+        "f1": 0.30769230769230765
+      }
+    },
+    {
+      "question": "Are both Elko Regional Airport and Gerald R. Ford International Airport located in Michigan?",
+      "ground_truth": "no",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "No.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "No.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "No, Elko Regional Airport is not located in Michigan. It is located in Elko, Nevada. Gerald R. Ford International Airport is located in Grand Rapids, Michigan.",
+        "em": 0.0,
+        "f1": 0.07407407407407407
+      }
+    },
+    {
+      "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+      "ground_truth": "New York City",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "New York City",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "New York City",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "I couldn't find information on a psychology professor named Ralph Hefferline.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+      "ground_truth": "Scotch Collie",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "The Scotch Collie.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "The Scotch Collie.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The Manchester Terrier does not have ancestors that include Gordon and Irish Setters. \n\nThe correct answer is the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the Irish Terrier's cousin, the Irish Setter's cousin, the Gordon Setter's cousin, the",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+      "ground_truth": "Mumbai",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Kochi.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "Mumbai, Maharashtra.",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "no_retrieval": {
+        "prediction": "I am unable to verify where the company that Sachin Warrier worked for as a software engineer is headquartered.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "A Japanese manga series based on a 16 year old high school student Ichitaka Seto, is written and illustrated by someone born in what year?",
+      "ground_truth": "1962",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "1950",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "1950",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "I'm not aware of the specific manga series you are referring to.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+      "ground_truth": "sovereignty",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Ethiopian sovereignty.",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "vector_only": {
+        "prediction": "Ethiopian sovereignty.",
+        "em": 0.0,
+        "f1": 0.6666666666666666
+      },
+      "no_retrieval": {
+        "prediction": "I couldn't find any information about a person named Giuseppe Arimondi.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Alfred Balk served as the secretary of the Committee on the Employment of Minority Groups in the News Media under which United States Vice President?",
+      "ground_truth": "Nelson Rockefeller",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Nelson Rockefeller",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Nelson Rockefeller",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "I am unable to verify the United States Vice President that Alfred Balk served under.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+      "ground_truth": "Yellowcraig",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Yellowcraigs.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "The Firth of Forth.",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "The medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of the Firth of Forth.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+      "ground_truth": "Phil Spector",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Phil Spector",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "The writer of the song \"To Know Him Is to Love Him\" is Phil Spector, but it was inspired by words on a tombstone written by Phil Spector's father.",
+        "em": 0.0,
+        "f1": 0.14285714285714288
+      },
+      "no_retrieval": {
+        "prediction": "The writer of the song is Phil Spector.",
+        "em": 0.0,
+        "f1": 0.5
+      }
+    },
+    {
+      "question": "What type of forum did a former Soviet statesman initiate?",
+      "ground_truth": "Organizations could come together to address global issues",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Perestroika",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "vector_only": {
+        "prediction": "Perestroika",
+        "em": 0.0,
+        "f1": 0.0
+      },
+      "no_retrieval": {
+        "prediction": "I couldn't find any information about a former Soviet statesman initiating a specific type of forum.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Are Ferocactus and Silene both types of plant?",
+      "ground_truth": "yes",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Yes, both Ferocactus and Silene are types of plants. \n\nFerocactus is a genus of cacti, while Silene is a genus of flowering plants in the family Caryophyllaceae.",
+        "em": 0.0,
+        "f1": 0.07999999999999999
+      }
+    },
+    {
+      "question": "Which British first-generation jet-powered medium bomber was used in the South West Pacific theatre of World War II?",
+      "ground_truth": "English Electric Canberra",
+      "num_paragraphs": 10,
+      "contextos": {
+        "prediction": "None, the English Electric Canberra was not used in the South West Pacific theatre of World War II.",
+        "em": 0.0,
+        "f1": 0.3157894736842105
+      },
+      "vector_only": {
+        "prediction": "None, the English Electric Canberra was not used in the South West Pacific theatre of World War II.",
+        "em": 0.0,
+        "f1": 0.3157894736842105
+      },
+      "no_retrieval": {
+        "prediction": "The British first-generation jet-powered medium bomber used in the South West Pacific theatre of World War II was the de Havilland Mosquito.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    }
+  ]
+}

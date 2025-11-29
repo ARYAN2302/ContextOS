@@ -1,0 +1,305 @@
+{
+  "model": "llama-3.1-8b-instant",
+  "num_samples": 15,
+  "summary": {
+    "contextos": {
+      "exact_match": 86.66666666666667,
+      "f1": 95.0
+    },
+    "vector_only": {
+      "exact_match": 86.66666666666667,
+      "f1": 95.0
+    },
+    "no_retrieval": {
+      "exact_match": 0.0,
+      "f1": 12.71560213665477
+    }
+  },
+  "detailed": [
+    {
+      "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+      "ground_truth": "yes",
+      "contextos": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Yes.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "No, they were not. Scott Derrickson is American, and Ed Wood is American as well, but Ed Wood's father was of English descent.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "What government position was held by the woman who portrayed Nicky combative girlfriend in the 2011 film Warrior?",
+      "ground_truth": "Secretary of State",
+      "contextos": {
+        "prediction": "United States Secretary of State.",
+        "em": 0.0,
+        "f1": 0.7499999999999999
+      },
+      "vector_only": {
+        "prediction": "United States Secretary of State.",
+        "em": 0.0,
+        "f1": 0.7499999999999999
+      },
+      "no_retrieval": {
+        "prediction": "I'm not aware of the information about the woman who portrayed Nicky's combative girlfriend in the 2011 film Warrior.",
+        "em": 0.0,
+        "f1": 0.10526315789473684
+      }
+    },
+    {
+      "question": "Which magazine was started first Arthur's Magazine or First for Women?",
+      "ground_truth": "Arthur's Magazine",
+      "contextos": {
+        "prediction": "Arthur's Magazine.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Arthur's Magazine.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "First for Women was started first.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "The creator of Wallace and Gromit also created what other character that was turned into a feature film?",
+      "ground_truth": "Shaun the Sheep",
+      "contextos": {
+        "prediction": "Shaun the Sheep.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Shaun the Sheep.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Nick Park, the creator of Wallace and Gromit, also created Chicken Run, which was turned into a feature film.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "What is the nationality of the director of the film The Survey?",
+      "ground_truth": "Hungarian",
+      "contextos": {
+        "prediction": "Hungarian.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Hungarian.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "I am unable to verify the nationality of the director of the film The Survey.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "Which band has more members, Starship or Big Bad Voodoo Daddy?",
+      "ground_truth": "Big Bad Voodoo Daddy",
+      "contextos": {
+        "prediction": "Big Bad Voodoo Daddy.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Big Bad Voodoo Daddy.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Starship has had multiple members over the years, but Big Bad Voodoo Daddy has 8 members.",
+        "em": 0.0,
+        "f1": 0.4210526315789474
+      }
+    },
+    {
+      "question": "What year was the band that performed 'Don't Stop Believin' formed?",
+      "ground_truth": "1973",
+      "contextos": {
+        "prediction": "1973",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "1973",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The band that performed 'Don't Stop Believin'' is Journey. Journey was formed in 1973.",
+        "em": 0.0,
+        "f1": 0.14285714285714288
+      }
+    },
+    {
+      "question": "The Oberoi family controls how many hotels in India?",
+      "ground_truth": "over 30",
+      "contextos": {
+        "prediction": "Over 30",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Over 30",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The Oberoi Group controls around 35 hotels in India.",
+        "em": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "question": "What nationality was the artist who painted 'The Potato Eaters'?",
+      "ground_truth": "Dutch",
+      "contextos": {
+        "prediction": "Dutch.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Dutch.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The artist who painted 'The Potato Eaters' was Dutch.",
+        "em": 0.0,
+        "f1": 0.25
+      }
+    },
+    {
+      "question": "What is the capital of the country where the 2010 Winter Olympics were held?",
+      "ground_truth": "Ottawa",
+      "contextos": {
+        "prediction": "Ottawa.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Ottawa.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "The 2010 Winter Olympics were held in Vancouver, Canada. The capital of Canada is Ottawa.",
+        "em": 0.0,
+        "f1": 0.14285714285714288
+      }
+    },
+    {
+      "question": "Who directed the film that featured the song 'My Heart Will Go On'?",
+      "ground_truth": "James Cameron",
+      "contextos": {
+        "prediction": "James Cameron.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "James Cameron.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "James Cameron directed the film that featured the song 'My Heart Will Go On'.",
+        "em": 0.0,
+        "f1": 0.2857142857142857
+      }
+    },
+    {
+      "question": "What language is spoken in the country where Mount Everest is located?",
+      "ground_truth": "Nepali",
+      "contextos": {
+        "prediction": "Nepali.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Nepali.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "In Nepal, where the southern part of Mount Everest is located, the official languages are Nepali and many other local languages.",
+        "em": 0.0,
+        "f1": 0.1
+      }
+    },
+    {
+      "question": "The author of 'To Kill a Mockingbird' was born in which state?",
+      "ground_truth": "Alabama",
+      "contextos": {
+        "prediction": "Alabama.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Alabama.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Harper Lee, the author of 'To Kill a Mockingbird', was born in Alabama.",
+        "em": 0.0,
+        "f1": 0.16666666666666669
+      }
+    },
+    {
+      "question": "What instrument did the composer of 'F\u00fcr Elise' primarily play?",
+      "ground_truth": "piano",
+      "contextos": {
+        "prediction": "Piano.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "vector_only": {
+        "prediction": "Piano.",
+        "em": 1.0,
+        "f1": 1.0
+      },
+      "no_retrieval": {
+        "prediction": "Ludwig van Beethoven, the composer of 'F\u00fcr Elise', primarily played the piano.",
+        "em": 0.0,
+        "f1": 0.18181818181818182
+      }
+    },
+    {
+      "question": "What is the currency of the country where the Great Wall is located?",
+      "ground_truth": "yuan",
+      "contextos": {
+        "prediction": "Chinese yuan (renminbi)",
+        "em": 0.0,
+        "f1": 0.5
+      },
+      "vector_only": {
+        "prediction": "The Chinese yuan (renminbi).",
+        "em": 0.0,
+        "f1": 0.5
+      },
+      "no_retrieval": {
+        "prediction": "The currency of China, where the Great Wall is located, is the Renminbi (RMB), also known as the Chinese yuan (CNY).",
+        "em": 0.0,
+        "f1": 0.1111111111111111
+      }
+    }
+  ]
+}
