@@ -7,7 +7,7 @@
 [![PyPI version](https://badge.fury.io/py/agentic-memory.svg)](https://pypi.org/project/agentic-memory/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](Contextos_preprint.pdf)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](https://github.com/ARYAN2302/ContextOS/blob/main/Contextos_preprint.pdf)
 
 ---
 
