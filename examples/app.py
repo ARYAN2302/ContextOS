@@ -502,7 +502,7 @@ class ContextOSDashboard:
             st.markdown("### 📚 Resources")
             st.markdown("- [GitHub](https://github.com/ARYAN2302/ContextOS)")
             st.markdown("- [PyPI](https://pypi.org/project/agentic-memory/)")
-            st.markdown("- [Paper](paper/ContextOS_Paper.pdf)")
+            st.markdown("- [Paper](Contextos_preprint.pdf)")
             
             st.markdown("---")
             st.markdown("### ⚙️ Settings")

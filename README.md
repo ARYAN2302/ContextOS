@@ -7,7 +7,7 @@
 [![PyPI version](https://badge.fury.io/py/agentic-memory.svg)](https://pypi.org/project/agentic-memory/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](paper/ContextOS_Paper.pdf)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](Contextos_preprint.pdf)
 
 ---
 
@@ -40,6 +40,14 @@ ContextOS is a **framework for building AI agents with persistent, structured me
 - **Retrieval** uses hybrid scoring: `PageRank centrality + Vector similarity`
 
 This enables **multi-hop reasoning** that pure vector search cannot achieve.
+
+---
+
+## 🧠 Memory Visualization
+
+![ContextOS Memory Graph](paper/figures/brain_viz.png)
+
+*Interactive 3D visualization of the memory graph showing Semantic (Cyan), Episodic (Orange), and Procedural (Green) nodes.*
 
 ---
 
