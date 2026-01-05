@@ -502,7 +502,20 @@ class ContextOSDashboard:
             st.markdown("### 📚 Resources")
             st.markdown("- [GitHub](https://github.com/ARYAN2302/ContextOS)")
             st.markdown("- [PyPI](https://pypi.org/project/agentic-memory/)")
-            st.markdown("- [Paper](https://github.com/ARYAN2302/ContextOS/blob/main/Contextos_preprint.pdf)")
+            
+            # Paper Download Button
+            paper_path = "Contextos_preprint.pdf"
+            if os.path.exists(paper_path):
+                with open(paper_path, "rb") as f:
+                    st.download_button(
+                        label="📄 Download Paper",
+                        data=f,
+                        file_name="ContextOS_Preprint.pdf",
+                        mime="application/pdf",
+                        use_container_width=True
+                    )
+            else:
+                st.markdown("- [Paper](https://github.com/ARYAN2302/ContextOS/blob/main/Contextos_preprint.pdf)")
             
             st.markdown("---")
             st.markdown("### ⚙️ Settings")
