@@ -5,3 +5,6 @@ langchain-groq
 langchain-core
 pydantic
 matplotlib
+streamlit
+pyvis
+pysqlite3-binary

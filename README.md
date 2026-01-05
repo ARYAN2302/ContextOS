@@ -11,9 +11,23 @@
 
 ---
 
-## Architecture
+## 🎯 Quick Demo
 
-![ContextOS Architecture](paper/figures/architecture.png)
+Launch the interactive dashboard and explore the memory graph:
+
+```bash
+# Clone and setup
+git clone https://github.com/ARYAN2302/ContextOS.git
+cd ContextOS
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the demo dashboard
+streamlit run examples/app.py
+```
+
+Then open **http://localhost:8501** and click **"Load Demo Brain"** to see the 3D memory visualization!
 
 ---
 
@@ -39,6 +53,34 @@ This enables **multi-hop reasoning** that pure vector search cannot achieve.
 
 ---
 
+## 🎮 Dashboard Demo Features
+
+The Streamlit dashboard includes:
+
+### Interactive Memory Graph
+- **3D Brain Visualization** - Drag, zoom, and explore nodes
+- **Color-Coded Nodes** - Cyan (Semantic), Orange (Episodic), Green (Procedural)
+- **Size by PageRank** - Important memories appear larger
+- **Hover Details** - See memory content and metadata
+
+### Real-time Metrics
+- **Total Memories** - Count of stored memories
+- **Connections** - Relationship edges in the graph
+- **Vector Index** - Semantic search index size
+- **Graph Density** - Connectivity measure
+
+### Demo Mode
+- **One-Click Brain Load** - Generate 60+ memories instantly
+- **Needle in Haystack Demo** - See how important facts become graph hubs
+- **Chat Interface** - Add memories and query context
+
+### Benchmark Showcase
+- **15x Memory Boost** - Llama-8B + ContextOS vs alone
+- **100% vs 6.7%** - Accuracy comparison
+- **Multi-Hop Reasoning** - Graph traversal advantages
+
+---
+
 ## Installation
 
 ```bash
@@ -50,6 +92,7 @@ Or for local development:
 ```bash
 git clone https://github.com/ARYAN2302/ContextOS.git
 cd ContextOS
+pip install -r requirements.txt
 pip install -e .
 ```
 
@@ -180,6 +223,25 @@ relevance(node, query) = (α × semantic_similarity) + (β × pagerank_centralit
 
 ---
 
+## Running the Dashboard
+
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch Streamlit dashboard
+streamlit run examples/app.py
+```
+
+**Dashboard Features:**
+- 🧠 Interactive 3D memory graph visualization
+- 📊 Real-time statistics and metrics
+- 🚀 One-click demo brain generation
+- 💬 Chat interface with memory persistence
+- 📈 Benchmark comparison charts
+
+---
+
 ## Configuration
 
 ```python
@@ -199,16 +261,20 @@ context = client.compile(
 ```
 
 ---
+
 ## Roadmap & Future Work v0.2 (Planned):
 
 Multi-Session Persistence: Long-term user profiles and cross-session entity resolution.
 
-Memory Consolidation (Sleep Cycles): Background merging of duplicate nodes and pruning of stale memories to optimize graph density. v0.3 (Planned):
+Memory Consolidation (Sleep Cycles): Background merging of duplicate nodes and pruning of stale memories to optimize graph density.
+
+v0.3 (Planned):
 
 Causal Reasoning Engine: New edge types (CAUSES, PREVENTS) for deeper logic.
 
 Document Ingestion: Parsing full PDFs into knowledge sub-graphs.
 
+---
 
 ## License
 
@@ -219,3 +285,13 @@ MIT License - See [LICENSE](LICENSE) for details.
 ## Acknowledgments
 
 Inspired by the [CoALA](https://arxiv.org/abs/2309.02427) architecture for cognitive agents.
+
+---
+
+## 👤 Author
+
+**Aryan** - [GitHub](https://github.com/ARYAN2302)
+
+---
+
+**Star ⭐ the repo if you find it useful!**
